@@ -64,7 +64,7 @@ function FramedCard () {
   <div className="aboutme mt-2 text-white text-opacity-90">
     <p>
       <span>
-      Inquiries:{" "}
+      inquiries:{" "}
         <a
           href="mailto:canttellyou@gmail.com"
           target="_blank"
@@ -75,9 +75,9 @@ function FramedCard () {
         </a>
       </span>
       <br />
-      New Zealand
+      new Zealand
       <br />
-      Yoza
+      yoza
     </p>
   </div>
 </CardItem>
