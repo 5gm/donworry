@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "@donworry | donworry.me",
     description: "Private Biolink developed with Next.js | @x05k on ig",
-    url: "https://dec.al",
+    url: "https://donworry.me/",
     images: [
       {
         url: "https://i.pinimg.com/736x/9f/c7/e3/9fc7e3ec06cd28eb55b3bc8a0663cb69.jpg", // Replace with your thumbnail URL
