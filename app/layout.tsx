@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
   },
   openGraph: {
-    title: "@decal | dec.al",
+    title: "@donworry | donworry.me",
     description: "Private Biolink developed with Next.js | @x05k on ig",
     url: "https://dec.al",
     images: [
