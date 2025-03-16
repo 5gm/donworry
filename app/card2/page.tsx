@@ -66,18 +66,18 @@ function FramedCard () {
       <span>
       Inquiries:{" "}
         <a
-          href="mailto:i@clu.ng"
+          href="mailto:canttellyou@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#87CEEB" }}
         >
-          i@clu.ng
+          canttellyou@gmail.com
         </a>
       </span>
       <br />
       Reactjs ∼ Tailwind ∼ Typescript
       <br />
-      GHL Student @ UH | 19
+      yoza
     </p>
   </div>
 </CardItem>
@@ -101,7 +101,7 @@ function FramedCard () {
                 </div>
             </div>
         </a>
-        <a href="https://www.tiktok.com/@MS4wLjABAAAAgTYBJVzXSYYxO4mpzMIcMS6KUUiakCQw6ZZiSKQWGqmApOnY5uh9i0ooGO59IW9h?is_from_webapp=1&sender_device=pc" target="_blank" className="w-[48%]">
+        <a href="https://www.tiktok.com/@mrbeast" target="_blank" className="w-[48%]">
             <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-[full]">
             <svg
   xmlns="http://www.w3.org/2000/svg"
