@@ -75,9 +75,9 @@ function FramedCard () {
         </a>
       </span>
       <br />
-      Reactjs ∼ Tailwind ∼ Typescript
+      New Zealand
       <br />
-      yoza
+      Yoza
     </p>
   </div>
 </CardItem>
