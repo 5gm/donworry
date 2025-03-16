@@ -20,7 +20,7 @@ function FramedCard () {
             </div>
             <div className="avatar">
           <Image
-            src="/e23d97e0f62469bca42b575facce6f36.jpg"
+            src="/4.png"
             height="108"
             width="108"
             className=" object-cover ml-4 absolute top-24 w-[108px] h-[108px] sm:top-20 rounded-full group-hover/card:shadow-xl mx-auto"
