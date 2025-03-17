@@ -62,6 +62,17 @@ function FramedCard () {
 <CardItem translateZ="60" className="px-2 mt-5">
   <h3 className="uppercase text-white text-opacity-55 font-semibold text-xs">About me</h3>
   <div className="aboutme mt-2 text-white text-opacity-90">
+    <p>
+      <span>
+      inquiries:{" "}
+        <a
+          href="mailto:canttellyou@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#87CEEB" }}
+        >
+          canttellyou@gmail.com
+        </a>
       </span>
       <br />
       new zealand | 16
