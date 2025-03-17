@@ -62,7 +62,6 @@ function FramedCard () {
 <CardItem translateZ="60" className="px-2 mt-5">
   <h3 className="uppercase text-white text-opacity-55 font-semibold text-xs">About me</h3>
   <div className="aboutme mt-2 text-white text-opacity-90">
-    <p>
       </span>
       <br />
       new zealand | 16
