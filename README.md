@@ -52,9 +52,6 @@ This repository contains the source code for a personal website built using **Re
    ```
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## Contact
-For inquiries, email me at [i@clu.ng](mailto:i@clu.ng).
-
 ## Notes
 - Credits to sye (check fork for original)
 
