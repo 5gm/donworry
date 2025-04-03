@@ -66,7 +66,7 @@ function FramedCard () {
       <span>
       inquiries:{" "}
         <a
-          href="mailto:canttellyou@gmail.com"
+          href="mailto:ollie@donworry.me"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "#87CEEB" }}
