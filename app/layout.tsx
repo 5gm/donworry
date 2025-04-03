@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "@5isn | donworry.me",
   description: "Private Biolink developed with Next.js | @donworry on dc",
   icons: {
-    icon: "https://cdn.discordapp.com/attachments/1349684241146970162/1357195720028979340/favicon.ico?ex=67ef5283&is=67ee0103&hm=c906b68a3484f44832fa36999d39e655fdcbc6aa21bbfb6173edea3583d2d549&",
+    icon: "https://github.com/5gm/donworry/blob/main/public/favicon.ico",
   },
   openGraph: {
     title: "@5isn | donworry.me",
