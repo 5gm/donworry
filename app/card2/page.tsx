@@ -71,7 +71,7 @@ function FramedCard () {
           rel="noopener noreferrer"
           style={{ color: "#87CEEB" }}
         >
-          canttellyou@gmail.com
+          ollie@donworry.me
         </a>
       </span>
       <br />
