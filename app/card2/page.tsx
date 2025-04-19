@@ -32,27 +32,21 @@ function FramedCard () {
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
     <div className="flex items-center">
-        <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
-  <div className="profile px-2 w-full mt-8 flex justify-between items-center">
-    <div className="flex items-center">
-      <div className="font-semibold text-2xl flex items-center gap-2">
-        donworry.
-        <div className="relative group cursor-pointer">
-          {/* Crown Icon */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-5 h-5 text-yellow-500"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M5 8l3.5 3L12 5l3.5 6L19 8l-2 11H7L5 8z" />
-          </svg>
-          {/* Tooltip */}
-          <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
-            site owner
-          </div>
-        </div>
-      </div>
+        <div className="font-semibold text-2xl flex items-center gap-2">
+  donworry.
+  <div className="relative group cursor-pointer">
+    {/* Crown Icon */}
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-5 h-5 text-yellow-500"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M5 8l3.5 3L12 5l3.5 6L19 8l-2 11H7L5 8z" />
+    </svg>
+    {/* Tooltip */}
+    <div className="absolute bottom-full mb-1 left-1/2 -translate-x-1/2 bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none whitespace-nowrap">
+      site owner
     </div>
   </div>
 </div>
