@@ -146,7 +146,28 @@ function FramedCard () {
             </div>
         </a>
 
-        
+        <a href="https://t.me/downchicks" target="_blank" className="w-[48%]">
+  <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-full">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+    >
+      <path d="M9.993 16.201c-.363 0-.301-.137-.428-.48l-1.072-3.522 8.279-4.914" fill="currentColor"/>
+      <path d="M9.993 16.201c.277 0 .398-.127.553-.279l1.484-1.439-1.843-1.114" fill="currentColor"/>
+      <path fillRule="evenodd" clipRule="evenodd" d="M9.995 2C5.031 2 1 6.031 1 11c0 4.969 4.031 9 8.995 9S19 15.969 19 11c0-4.969-4.031-9-9.005-9Zm3.645 9.28l-1.482 4.736c-.112.378-.418.47-.693.29l-1.924-1.418-0.93.897c-.102.1-.188.188-.384.188l.137-1.949 3.548-3.209c.154-.137-.034-.215-.24-.078l-4.385 2.765-1.89-.59c-.411-.128-.419-.411.085-.609l7.406-2.859c.344-.128.645.084.533.606Z" fill="currentColor"/>
+    </svg>
+    Telegram
+    <div className="arrow ml-auto opacity-60 justify-end flex items-end">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+        <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+        <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+      </svg>
+    </div>
+  </div>
+</a>
 
     </div>
 </CardItem>
