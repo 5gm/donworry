@@ -31,26 +31,9 @@ function FramedCard () {
        <CardItem translateZ="80">
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
-<div className="flex items-center gap-2 relative group">
-  <a className="font-semibold text-2xl">donworry.</a>
-
-  {/* Crown Icon with Tooltip */}
-  <div className="relative flex items-center">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="white"
-      className="w-6 h-6 md:w-7 md:h-7 cursor-pointer border border-black rounded-md p-0.5"
-    >
-      <path d="M5 6l2.5 3L10 4l4 8 2.5-3L19 6v11H5V6z" />
-    </svg>
-
-    {/* Tooltip */}
-    <div className="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-white text-black text-xs font-semibold px-2 py-1 rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-20">
-      site owner
+    <div className="flex items-center">
+        <a className="font-semibold text-2xl">donworry.</a>
     </div>
-  </div>
-</div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">
   <circle cx="15" cy="12" fill="#fff" r="6"/>
