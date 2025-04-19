@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "@eqlo | donworry.me",
+  title: "@5isn | donworry.me",
   description: "Private Biolink developed with Next.js | @eqlo on dc",
   icons: {
     icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
