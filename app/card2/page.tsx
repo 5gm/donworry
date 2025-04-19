@@ -31,9 +31,26 @@ function FramedCard () {
        <CardItem translateZ="80">
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
-    <div className="flex items-center">
-        <a className="font-semibold text-2xl">donworry.</a>
+<div className="flex items-center space-x-2 relative group">
+  <a className="font-semibold text-2xl">donworry.</a>
+  <div className="relative flex items-center justify-center">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="white"
+      stroke="black"
+      strokeWidth="1"
+      className="w-5 h-5 cursor-pointer"
+    >
+      <path d="M12 2l2 5 4-2-1 6h-10l-1-6 4 2 2-5zM4 20h16v2H4v-2z" />
+    </svg>
+    <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+      <div className="bg-black text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
+        site owner
+      </div>
     </div>
+  </div>
+</div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">
   <circle cx="15" cy="12" fill="#fff" r="6"/>
