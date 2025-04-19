@@ -31,23 +31,23 @@ function FramedCard () {
        <CardItem translateZ="80">
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
-<div className="flex items-center space-x-2 relative group">
+<div className="flex items-center gap-2 relative group">
   <a className="font-semibold text-2xl">donworry.</a>
-  <div className="relative flex items-center justify-center">
+
+  {/* Crown Icon with Tooltip */}
+  <div className="relative flex items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
       fill="white"
-      stroke="black"
-      strokeWidth="1"
-      className="w-5 h-5 cursor-pointer"
+      className="w-6 h-6 md:w-7 md:h-7 cursor-pointer border border-black rounded-md p-0.5"
     >
-      <path d="M12 2l2 5 4-2-1 6h-10l-1-6 4 2 2-5zM4 20h16v2H4v-2z" />
+      <path d="M5 6l2.5 3L10 4l4 8 2.5-3L19 6v11H5V6z" />
     </svg>
-    <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-      <div className="bg-black text-white text-xs px-2 py-1 rounded shadow-lg whitespace-nowrap">
-        site owner
-      </div>
+
+    {/* Tooltip */}
+    <div className="absolute left-1/2 -translate-x-1/2 -bottom-10 bg-white text-black text-xs font-semibold px-2 py-1 rounded shadow opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-20">
+      site owner
     </div>
   </div>
 </div>
