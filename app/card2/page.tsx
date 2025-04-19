@@ -146,17 +146,17 @@ function FramedCard () {
             </div>
         </a>
 
-        <a href="https://t.me/downchicks" target="_blank" className="w-[48%]">
+<a href="https://t.me/downchicks" target="_blank" className="w-[48%]">
   <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-full">
-    {/* Telegram Icon */}
+    {/* Telegram Icon (fixed version) */}
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
+      viewBox="0 0 512 512"
       fill="currentColor"
-      viewBox="0 0 24 24"
     >
-      <path d="M12 0C5.373 0 0 5.372 0 12c0 6.628 5.373 12 12 12s12-5.372 12-12c0-6.628-5.373-12-12-12zm5.405 7.501l-1.66 7.813c-.125.559-.457.695-.927.433l-2.571-1.896-1.24 1.197c-.137.135-.252.25-.516.25l.184-2.608 4.755-4.295c.207-.184-.045-.285-.32-.102l-5.878 3.693-2.529-.791c-.549-.171-.561-.549.115-.812l9.857-3.802c.457-.171.857.102.709.796z"/>
+      <path d="M256 0C114.836 0 0 114.836 0 256s114.836 256 256 256 256-114.836 256-256S397.164 0 256 0zm120.604 175.705l-36.497 172.272c-2.755 12.332-10.003 15.37-20.264 9.56l-56-41.287-27.032 25.992c-2.983 2.983-5.485 5.485-11.253 5.485l4.023-57.217 104.396-94.093c4.531-4.023-1.005-6.242-7.024-2.219l-129.079 81.075-55.66-17.407c-12.092-3.78-12.332-12.092 2.75-17.951l216.936-83.692c10.003-3.78 18.687 2.219 15.204 17.49z" />
     </svg>
     Telegram
     <div className="arrow ml-auto opacity-60 justify-end flex items-end">
@@ -180,6 +180,7 @@ function FramedCard () {
     </div>
   </div>
 </a>
+
 
     </div>
 </CardItem>
