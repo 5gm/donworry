@@ -82,7 +82,14 @@ function FramedCard () {
   </div>
 </CardItem>
 
-
+<CardItem translateZ="60" className="px-2 mt-5">
+  <button
+    className="bg-sky-500 hover:bg-sky-600 transition-colors duration-200 text-white px-4 py-2 rounded-md text-sm font-medium"
+    onClick={() => alert("This site is owned by donworry.")}
+  >
+    Site Owner
+  </button>
+</CardItem>
 
 <CardItem translateZ="80" className="px-2 mt-8">
     <h3 className="uppercase text-white text-opacity-55 font-semibold text-xs">Connections</h3>
