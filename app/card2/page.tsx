@@ -148,17 +148,14 @@ function FramedCard () {
 
 <a href="https://t.me/downchicks" target="_blank" className="w-[48%]">
   <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-full">
-    {/* Telegram Icon */}
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
+    {/* Telegram Icon (Image) */}
+    <img
+      src="https://www.svgrepo.com/show/314769/telegram.svg"
+      alt="Telegram Icon"
       width="24"
       height="24"
-      viewBox="0 0 512 512"
-      fill="currentColor"
-    >
-      <path d="M299.6 114.4c13.6-4.8 27.2-10.4 41.6-17.6 4.8-3.2 9.6-6.4 14.4-9.6 4-3.2 8-6.4 12-10.4 6.4-7.2 13.6-14.4 22.4-21.6 4.8-5.6 10.4-11.2 16-16 4-4 8.8-7.2 14.4-10.4 16-12 33.6-23.2 51.2-34.4 32.8-21.6 65.6-43.2 98.4-64 1.6-1.6 3.2-3.2 4.8-4.8-1.6-8.8-3.2-16-4.8-24-2.4-4.8-6.4-9.6-12.8-10.4 0-0.8 0-1.6 0.8-2.4 4.8-8 8-16 12-24-1.6 0-3.2-1.6-4.8-2.4-7.2 2.4-16 3.2-24 5.6-33.6-0.8-0.8-2.4-0.8-3.2-1.6c-7.2 2.4-14.4 4.8-21.6 7.2z" />
-    </svg>
-    https://www.svgrepo.com/show/314769/telegram.svg
+    />
+    Telegram
     <div className="arrow ml-auto opacity-60 justify-end flex items-end">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -180,6 +177,7 @@ function FramedCard () {
     </div>
   </div>
 </a>
+
 
 
 
