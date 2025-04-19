@@ -29,7 +29,10 @@ function FramedCard () {
           </div>
         </CardItem>
        <CardItem translateZ="80">
-<div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
+        <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
+       <div className="profile px-2 w-full mt-8 flex justify-between items-center">
+    <div className="flex items-center">
+        <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
   <div className="profile px-2 w-full mt-8 flex justify-between items-center">
     <div className="flex items-center">
       <div className="font-semibold text-2xl flex items-center gap-2">
