@@ -34,11 +34,13 @@ function FramedCard () {
     <div className="flex items-center">
         <div className="font-semibold text-2xl flex items-center gap-2">
   donworry.
+ <div className="font-semibold text-2xl flex items-center gap-2">
+  donworry.
   <div className="relative group cursor-pointer">
     {/* Crown Icon */}
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="w-5 h-5 text-yellow-500"
+      className="w-7 h-7 text-white"  {/* Increased size and changed color to white */}
       viewBox="0 0 24 24"
       fill="currentColor"
     >
