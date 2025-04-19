@@ -148,6 +148,7 @@ function FramedCard () {
         </a>
 
 <a href="https://t.me/downchicks" target="_blank" className="w-[48%]">
+  {/* Telegram Icon */}
   <div className="connection mt-2 bg-neutral-950 bg-opacity-70 rounded-md py-2.5 px-4 flex items-center gap-2 w-full">
     <svg
       fill="#ffffff"
