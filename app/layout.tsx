@@ -8,13 +8,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "@5isn | donworry.me",
-  description: "Private Biolink developed with Next.js | @eqlo on dc",
+  description: "Private Biolink developed with Next.js | @5isn on dc",
   icons: {
     icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
   },
   openGraph: {
-    title: "@eqlo | donworry.me",
-    description: "Private Biolink developed with Next.js | @eqlo on dc",
+    title: "@5isn | donworry.me",
+    description: "Private Biolink developed with Next.js | @5isn on dc",
     url: "https://donworry.me/",
     images: [
       {
