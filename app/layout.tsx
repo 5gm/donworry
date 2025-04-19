@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "@eqlo | donworry.me",
   description: "Private Biolink developed with Next.js | @eqlo on dc",
   icons: {
-    icon: "https://cdn.discordapp.com/attachments/1349684241146970162/1357195720028979340/favicon.ico?ex=67ef5283&is=67ee0103&hm=c906b68a3484f44832fa36999d39e655fdcbc6aa21bbfb6173edea3583d2d549&",
+    icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
   },
   openGraph: {
     title: "@eqlo | donworry.me",
