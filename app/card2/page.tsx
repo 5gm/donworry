@@ -187,7 +187,26 @@ function FramedCard () {
   </div>
 </a>
 
+const ViewCount = () => {
+  const [views, setViews] = useState(0);
 
+  useEffect(() => {
+    const getViewCount = async () => {
+      // Mocking a fetch request for view count
+      const response = await fetch("@/app/viewCount");
+      const data = await response.json();
+      setViews(data.viewCount);
+    };
+
+    getViewCount();
+  }, []);
+
+  return (
+    <div>
+      <p>View Count: {views}</p>
+    </div>
+  );
+};
 
     </div>
 </CardItem>
