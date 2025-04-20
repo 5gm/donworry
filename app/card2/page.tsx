@@ -193,7 +193,7 @@ const ViewCount = () => {
   useEffect(() => {
     const getViewCount = async () => {
       // Mocking a fetch request for view count
-      const response = await fetch("@/app/viewCount");
+      const response = await fetch('@/app/viewCount');
       const data = await response.json();
       setViews(data.viewCount);
     };
