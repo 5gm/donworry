@@ -3,7 +3,6 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import ViewCount from "@/app/viewCount";
 
 function FramedCard () {
   return (
@@ -187,42 +186,6 @@ function FramedCard () {
   </div>
 </a>
 
-const viewCount: React.FC = () => {
-  const [views, setViews] = useState<number>(0);
-
-  useEffect(() => {
-    try {
-      const storedViews = localStorage.getItem('viewCount');
-      if (storedViews) {
-        setViews(parseInt(storedViews, 10));
-      }
-    } catch (error) {
-      console.error('Error accessing localStorage:', error);
-    }
-  }, []);
-
-  useEffect(() => {
-    try {
-      if (views > 0) {
-        localStorage.setItem('viewCount', views.toString());
-      }
-    } catch (error) {
-      console.error('Error saving to localStorage:', error);
-    }
-  }, [views]);
-
-  const incrementViews = () => setViews((prevViews) => prevViews + 1);
-
-  useEffect(() => {
-    incrementViews();
-  }, []); // Runs once when the component mounts
-
-  return (
-    <div className="view-count">
-      <p>View count: {views}</p>
-    </div>
-  );
-};
 
 
     </div>
