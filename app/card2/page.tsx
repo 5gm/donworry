@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import ViewCount from '../app/viewCount';
+import ViewCount from "@/app/viewCount";
 
 function FramedCard () {
   return (
@@ -187,26 +187,7 @@ function FramedCard () {
   </div>
 </a>
 
-const ViewCount = () => {
-  const [views, setViews] = useState(0);
 
-  useEffect(() => {
-    const getViewCount = async () => {
-      // Mocking a fetch request for view count
-      const response = await fetch('/app/getViewCount');
-      const data = await response.json();
-      setViews(data.viewCount);
-    };
-
-    getViewCount();
-  }, []);
-
-  return (
-    <div>
-      <p>View Count: {views}</p>
-    </div>
-  );
-};
 
     </div>
 </CardItem>
