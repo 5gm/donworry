@@ -28,36 +28,12 @@ function FramedCard () {
           />
           </div>
         </CardItem>
-<CardItem translateZ="80">
-  <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
-    <div className="profile px-2 w-full mt-8 flex justify-between items-center">
-      <div className="flex items-center">
+       <CardItem translateZ="80">
+        <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
+       <div className="profile px-2 w-full mt-8 flex justify-between items-center">
+    <div className="flex items-center">
         <a className="font-semibold text-2xl">donworry.</a>
-        <span className="ml-2 relative">
-          <svg
-            fill="#000000"
-            viewBox="0 0 22 22"
-            xmlns="http://www.w3.org/2000/svg"
-            id="memory-crown"
-            className="w-6 h-6 text-yellow-400 hover:text-yellow-500 cursor-pointer"
-            title="Site Owner"
-          >
-            <g id="SVGRepo_iconCarrier">
-              <path
-                d="M2 17H20V19H2V17M4 6L4 7H5L5 8L6 8L6 7H7V6H8V5H9V4L10 4L10 3H12L12 4L13 4V5H14L14 6H15V7H16L16 8H17V7L18 7V6H19V5H20V16H2V5H3V6H4M7 14H18V10H15V9H14V8H13V7H12V6H10V7H9V8H8V9H7V10H4V14H7Z"
-              />
-            </g>
-          </svg>
-          <span className="absolute -top-5 left-1/2 transform -translate-x-1/2 text-sm text-white bg-black px-2 py-1 rounded opacity-0 group-hover/card:block group-hover/card:opacity-100 transition-opacity">
-            Site Owner
-          </span>
-        </span>
-      </div>
-      <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
-        {/* Other badges or social icons here */}
-      </div>
     </div>
-  </div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">
   <circle cx="15" cy="12" fill="#fff" r="6"/>
