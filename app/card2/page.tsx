@@ -187,26 +187,43 @@ function FramedCard () {
   </div>
 </a>
 
-const ViewCount = () => {
-  const [views, setViews] = useState(0);
+const viewCount: React.FC = () => {
+  const [views, setViews] = useState<number>(0);
 
   useEffect(() => {
-    const getViewCount = async () => {
-      // Mocking a fetch request for view count
-      const response = await fetch('@/app/viewCount');
-      const data = await response.json();
-      setViews(data.viewCount);
-    };
-
-    getViewCount();
+    try {
+      const storedViews = localStorage.getItem('viewCount');
+      if (storedViews) {
+        setViews(parseInt(storedViews, 10));
+      }
+    } catch (error) {
+      console.error('Error accessing localStorage:', error);
+    }
   }, []);
 
+  useEffect(() => {
+    try {
+      if (views > 0) {
+        localStorage.setItem('viewCount', views.toString());
+      }
+    } catch (error) {
+      console.error('Error saving to localStorage:', error);
+    }
+  }, [views]);
+
+  const incrementViews = () => setViews((prevViews) => prevViews + 1);
+
+  useEffect(() => {
+    incrementViews();
+  }, []); // Runs once when the component mounts
+
   return (
-    <div>
-      <p>View Count: {views}</p>
+    <div className="view-count">
+      <p>View count: {views}</p>
     </div>
   );
 };
+
 
     </div>
 </CardItem>
