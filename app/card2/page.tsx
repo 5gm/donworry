@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
-import ViewCount from '../components/viewCount';
+import ViewCount from '../app/viewCount';
 
 function FramedCard () {
   return (
