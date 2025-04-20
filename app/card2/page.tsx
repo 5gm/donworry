@@ -30,26 +30,10 @@ function FramedCard () {
         </CardItem>
        <CardItem translateZ="80">
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
-<div className="profile px-2 w-full mt-8 flex justify-between items-center">
+       <div className="profile px-2 w-full mt-8 flex justify-between items-center">
     <div className="flex items-center">
         <a className="font-semibold text-2xl">donworry.</a>
-        {/* Add this span for site owner with SVG */}
-        <span className="relative ml-2 group">
-            {/* SVG icon */}
-            <svg fill="#000000" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" id="memory-crown" className="w-4 h-4 text-gray-400">
-                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
-                <g id="SVGRepo_iconCarrier">
-                    <path d="M2 17H20V19H2V17M4 6L4 7H5L5 8L6 8L6 7H7V6H8V5H9V4L10 4L10 3H12L12 4L13 4V5H14L14 6H15V7H16L16 8H17V7L18 7V6H19V5H20V16H2V5H3V6H4M7 14H18V10H15V9H14V8H13V7H12V6H10V7H9V8H8V9H7V10H4V14H7Z"></path>
-                </g>
-            </svg>
-            {/* Tooltip */}
-            <span className="absolute left-0 bottom-0 bg-black text-white text-xs rounded-md py-1 px-2 opacity-0 group-hover:opacity-100 transition-opacity">
-                Site Owner
-            </span>
-        </span>
     </div>
-</div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">
   <circle cx="15" cy="12" fill="#fff" r="6"/>
