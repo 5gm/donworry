@@ -77,7 +77,7 @@ function FramedCard () {
       <br />
       new zealand | 16
       <br />
-      yoza
+      lua
     </p>
   </div>
 </CardItem>
