@@ -1,8 +1,8 @@
 local HttpService = game:GetService("HttpService")
 
 local scriptUrls = {
-    [74708667430033] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Crystal%20simulatorui2.lua",
-    [120119241483509] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Incremental.lua"
+    [74708667430033] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Crystal%20simulator.lua"))()",
+    [120119241483509] = "loadstring(game:HttpGet("https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Incremental.lua"))()"
 }
 
 local url = scriptUrls[game.PlaceId]
