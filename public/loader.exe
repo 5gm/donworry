@@ -1,5 +1,5 @@
 local Supported = {
-	[74708667430033] = "https://github.com/5gm/scripts/blob/main/Pet%20Crystal%20simulatorui2.lua",
+	[74708667430033] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Crystal%20simulatorui2.lua",
         [7436755782] = "https://raw.githubusercontent.com/RecryDv/sh0velprod/refs/heads/main/garden.luau"
 }
 
