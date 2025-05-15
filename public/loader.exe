@@ -1,14 +1,18 @@
 local Supported = {
-	[74708667430033] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Crystal%20simulatorui2.lua",
-        [7436755782] = "https://raw.githubusercontent.com/RecryDv/sh0velprod/refs/heads/main/garden.luau"
+
+    [7580655576] = "https://raw.githubusercontent.com/5gm/scripts/main/Pet%20Crystal%20simulatorui2.lua",
+    [7463504342] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Incremental.lua",
+
+    -- Add more games below following the same format:
+    -- [1234567890] = "https://raw.githubusercontent.com/username/repo/main/script.lua",
 }
 
 local ID = game.GameId
-local gm = Supported[ID]
+local scriptUrl = Supported[ID]
 
-if gm == nil then
-	warn("yoza. -> Game is not supported")
-	return
+if scriptUrl == nil then
+    warn("yoza. -> Game is not supported")
+    return
 end
 
-loadstring(game:HttpGet(gm))()
+loadstring(game:HttpGet(scriptUrl))()
