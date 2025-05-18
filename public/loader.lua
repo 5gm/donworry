@@ -1,7 +1,7 @@
 local Supported = {
 
     [7580655576] = "https://raw.githubusercontent.com/5gm/scripts/main/Pet%20Crystal%20simulatorui2.lua",
-    [7463504342] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Incremental.lua",
+    [7463504342] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Pet%20Incrementalui2.lua",
     [7114126212] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Freekick%20simulator.lua",
 
     -- Add more games below following the same format:
