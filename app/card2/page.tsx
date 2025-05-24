@@ -20,7 +20,7 @@ function FramedCard () {
             </div>
             <div className="avatar">
           <Image
-            src="/avatar3.png"
+            src="/avata4.png"
             height="108"
             width="108"
             className=" object-cover ml-4 absolute top-24 w-[108px] h-[108px] sm:top-20 rounded-full group-hover/card:shadow-xl mx-auto"
@@ -32,7 +32,7 @@ function FramedCard () {
         <div className="w-[20rem] sm:w[24rem] md:w-[27rem] px-1">
        <div className="profile px-2 w-full mt-8 flex justify-between items-center">
     <div className="flex items-center">
-        <a className="font-semibold text-2xl">Decal.</a>
+        <a className="font-semibold text-2xl">Doxxing</a>
     </div>
     <div className="badges ml-auto p-1 gap-1 flex items-center bg-neutral-950 bg-opacity-40 rounded-md">
     <svg xmlns="http://www.w3.org/2000/svg" height="140" viewBox="0 0 24 24" width="140">

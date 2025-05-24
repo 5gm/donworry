@@ -7,13 +7,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "@decal | dec.al",
+  title: "@doxxing | dec.al",
   description: "Private Biolink developed with Next.js | @x05k on ig",
   icons: {
     icon: "https://cdn.discordapp.com/emojis/1310254577831903254.webp?size=128",
   },
   openGraph: {
-    title: "@decal | dec.al",
+    title: "@doxxing | dec.al",
     description: "Private Biolink developed with Next.js | @x05k on ig",
     url: "https://dec.al",
     images: [
