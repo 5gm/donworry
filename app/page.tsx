@@ -68,7 +68,7 @@ const Framed = () => {
         playsInline
         className="fixed inset-0 object-cover z-0 w-full h-full"
       >
-        <source src="https://raw.githubusercontent.com/aIIey/decal/main/public/musicv2.mp4" type="video/mp4" />
+        <source src="https://raw.githubusercontent.com/aIIey/decal/main/public/edit2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <ThreeDCardDemo />
