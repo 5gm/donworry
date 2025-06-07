@@ -4,33 +4,106 @@
   <meta charset="UTF-8">
   <title>donworry Server Joiner</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
   <style>
-    body { background: #a259fa; color: #fff; font-family: sans-serif; text-align: center; }
-    .center { margin-top: 12%; }
-    .btn {
-      background: none; border: 2px solid #fff; color: #fff; padding: 12px 32px;
-      border-radius: 6px; font-size: 1.2em; cursor: pointer; margin-top: 24px;
-      transition: background 0.2s, color 0.2s;
+    body {
+      background: linear-gradient(135deg, #232526 0%, #a259fa 100%);
+      color: #fff;
+      font-family: 'Roboto', Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .btn:hover { background: #fff; color: #a259fa; }
-    .loader {
-      border: 6px solid #fff;
-      border-top: 6px solid #a259fa;
+    .container {
+      background: rgba(30, 30, 40, 0.92);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(80, 40, 160, 0.25);
+      padding: 48px 32px 36px 32px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 18px;
       border-radius: 50%;
-      width: 48px;
-      height: 48px;
+      background: linear-gradient(135deg, #a259fa 60%, #232526 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2em;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #fff;
+      box-shadow: 0 2px 12px rgba(162,89,250,0.25);
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.6em;
+      margin: 0 0 12px 0;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+    .loader {
+      margin: 24px auto 18px auto;
+      width: 38px;
+      height: 38px;
+      border: 5px solid #fff;
+      border-top: 5px solid #a259fa;
+      border-radius: 50%;
       animation: spin 1s linear infinite;
-      margin: 24px auto;
     }
     @keyframes spin { 100% { transform: rotate(360deg); } }
+    .btn {
+      background: linear-gradient(90deg, #a259fa 60%, #6d4aff 100%);
+      border: none;
+      color: #fff;
+      padding: 14px 0;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      width: 100%;
+      margin-top: 10px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(162,89,250,0.15);
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #6d4aff 60%, #a259fa 100%);
+      transform: translateY(-2px) scale(1.03);
+    }
+    .desc {
+      margin-top: 18px;
+      font-size: 1em;
+      color: #e0dfff;
+      opacity: 0.85;
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 0.9em;
+      color: #bdb7e3;
+      opacity: 0.7;
+      letter-spacing: 0.5px;
+    }
   </style>
 </head>
 <body>
-  <div class="center">
-    <h1>NexusHub Server Joiner</h1>
+  <div class="container">
+    <div class="logo">DW</div>
+    <h1>Join Your Roblox Server</h1>
     <div class="loader"></div>
-    <button class="btn" id="joinBtn">Click here to join</button>
-    <p>Click this button if you are not redirected automatically.</p>
+    <button class="btn" id="joinBtn">Join Now</button>
+    <div class="desc">You will be redirected automatically.<br>
+      If not, click the button above.</div>
+    <div class="footer">Powered by donworry.me &mdash; Safe, Fast, Simple</div>
   </div>
   <script>
     function getParam(name) {
@@ -42,13 +115,15 @@
     const joinUrl = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
 
     function joinServer() {
-      window.location.href = joinUrl;
+      if (placeId && jobId) {
+        window.location.href = joinUrl;
+      } else {
+        alert("Invalid or missing join link.");
+      }
     }
 
     document.getElementById('joinBtn').onclick = joinServer;
-
-    // Try to auto-redirect after a short delay
-    setTimeout(joinServer, 1000);
+    setTimeout(joinServer, 1200);
   </script>
 </body>
 </html>
