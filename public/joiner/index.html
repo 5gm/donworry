@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>donworry Server Joiner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts for a modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(135deg, #0a0f1a 0%, #162447 100%);
+      color: #e6e9f0;
+      font-family: 'Roboto', Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(15, 20, 40, 0.98);
+      border-radius: 18px;
+      box-shadow: 0 8px 32px rgba(20, 40, 80, 0.35);
+      padding: 48px 32px 36px 32px;
+      max-width: 350px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    .logo {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 18px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1f4068 60%, #0a0f1a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.2em;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #e6e9f0;
+      box-shadow: 0 2px 12px rgba(22,36,71,0.25);
+      user-select: none;
+    }
+    h1 {
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-size: 1.6em;
+      margin: 0 0 12px 0;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: #e6e9f0;
+    }
+    .loader {
+      margin: 24px auto 18px auto;
+      width: 38px;
+      height: 38px;
+      border: 5px solid #1f4068;
+      border-top: 5px solid #00aaff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+    .btn {
+      background: linear-gradient(90deg, #1f4068 60%, #00aaff 100%);
+      border: none;
+      color: #fff;
+      padding: 14px 0;
+      border-radius: 8px;
+      font-size: 1.1em;
+      font-family: 'Montserrat', Arial, sans-serif;
+      font-weight: 700;
+      width: 100%;
+      margin-top: 10px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,170,255,0.10);
+      transition: background 0.2s, transform 0.2s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #00aaff 60%, #1f4068 100%);
+      transform: translateY(-2px) scale(1.03);
+    }
+    .desc {
+      margin-top: 18px;
+      font-size: 1em;
+      color: #b0b8c9;
+      opacity: 0.85;
+    }
+    .footer {
+      margin-top: 32px;
+      font-size: 0.9em;
+      color: #5c6e91;
+      opacity: 0.7;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">DW</div>
+    <h1>Join Your Roblox Server</h1>
+    <div class="loader"></div>
+    <button class="btn" id="joinBtn">Join Now</button>
+    <div class="desc">You will be redirected automatically.<br>
+      If not, click the button above.</div>
+    <div class="footer">Powered by donworry.me &mdash; Safe, Fast, Simple</div>
+  </div>
+  <script>
+    function getParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+    const placeId = getParam('placeId');
+    const jobId = getParam('jobId');
+    const joinUrl = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
+
+    function joinServer() {
+      if (placeId && jobId) {
+        window.location.href = joinUrl;
+      } else {
+        alert("Invalid or missing join link.");
+      }
+    }
+
+    document.getElementById('joinBtn').onclick = joinServer;
+    setTimeout(joinServer, 1200);
+  </script>
+</body>
+</html>
