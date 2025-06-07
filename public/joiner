@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>donworry Server Joiner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background: #a259fa; color: #fff; font-family: sans-serif; text-align: center; }
+    .center { margin-top: 12%; }
+    .btn {
+      background: none; border: 2px solid #fff; color: #fff; padding: 12px 32px;
+      border-radius: 6px; font-size: 1.2em; cursor: pointer; margin-top: 24px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn:hover { background: #fff; color: #a259fa; }
+    .loader {
+      border: 6px solid #fff;
+      border-top: 6px solid #a259fa;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      animation: spin 1s linear infinite;
+      margin: 24px auto;
+    }
+    @keyframes spin { 100% { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>NexusHub Server Joiner</h1>
+    <div class="loader"></div>
+    <button class="btn" id="joinBtn">Click here to join</button>
+    <p>Click this button if you are not redirected automatically.</p>
+  </div>
+  <script>
+    function getParam(name) {
+      const url = new URL(window.location.href);
+      return url.searchParams.get(name);
+    }
+    const placeId = getParam('placeId');
+    const jobId = getParam('jobId');
+    const joinUrl = `roblox://placeId=${placeId}&gameInstanceId=${jobId}`;
 
+    function joinServer() {
+      window.location.href = joinUrl;
+    }
+
+    document.getElementById('joinBtn').onclick = joinServer;
+
+    // Try to auto-redirect after a short delay
+    setTimeout(joinServer, 1000);
+  </script>
+</body>
+</html>
