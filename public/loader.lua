@@ -6,6 +6,7 @@ local Supported = {
     [7541395924] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Build%20An%20Island.lua",
     [7679508751] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Infinite%20Mining%20Incremental.lua",
     [7799183193] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Steal%20a%20car.lua",
+    [7881089396] = "https://raw.githubusercontent.com/5gm/scripts/refs/heads/main/Anime%20Rising.lua",
     
 
     -- Add more games below following the same format:
